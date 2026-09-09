@@ -68,6 +68,8 @@ h1 em, h2 em { color: var(--orange); font-style: italic; }
 .activities-list { color: #a3a9a2; font-size: 14px; line-height: 1.65; list-style: none; margin: 0; padding: 0; }
 .activities-list li { margin: 0 0 10px; padding-left: 16px; position: relative; }
 .activities-list li::before { content: '–'; left: 0; position: absolute; }
+.lehigh-list li::before { content: none; }
+.lehigh-list li { padding-left: 0; }
 .about { background: var(--paper-deep); padding-bottom: 145px; padding-top: 118px; }
 .section-kicker { display: flex; gap: 14px; padding-top: 8px; }
 .section-kicker .rule { background: var(--orange); height: 1px; margin-top: 5px; width: 32px; }
